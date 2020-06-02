@@ -3,7 +3,7 @@
 from odoo.tests import common
 
 CH_POSTAL = "10-8060-7"
-CH_SUBSCRIPTION = "01-168-2"
+CH_SUBSCRIPTION = "01-162-8"
 
 
 class TestBankType(common.SavepointCase):
