@@ -29,7 +29,7 @@
                 <!-- add class to body tag -->
                 <!--<script>document.body.className += " l10n_ch_qr";</script>-->
                 <div class="page l10n_ch_qr">
-
+                    <!--FIXME for thousand separators an non-breakable space would be better but as it could break encoding we prefer to use a single quote -->
                     <t t-set="formated_amount" t-value="'{:,.2f}'.format(o.residual).replace(',','\'')"/>
 
                     <div class="swissqr_title">
